@@ -1,0 +1,61 @@
+body{
+  color: var(--p1);
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* CSS Reset */
+body, h1, h2, p, span, a, ul, li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: var(--w);
+}
+img{
+  display: block;
+  max-width: 100%;
+}
+*{
+  box-sizing: border-box;
+}
+/* Cores */
+
+:root{
+  -black: #000000;
+  --w: #ffffff;
+  --b1: #2c70ff;
+  --b2: #122ab2;
+  --b3: #90abc9;
+  /*  */
+  --p1: #222222;
+  --p2: #7c7c7c;
+  --p3: #a4a4a4;
+  --p4: #f7f7f7;
+}
+
+.white{
+  color: var(--w);
+}
+.p1{
+  color: var(--p1);
+}
+.p2{
+  color: var(--p2);
+}
+.p3{
+  color: var(--p3);
+}
+.p4{
+  color: var(--p4);
+}
+

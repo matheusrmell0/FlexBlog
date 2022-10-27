@@ -1,0 +1,18 @@
+/* Global */
+@import "./global/header.css";
+@import "./global/utilidades.css";
+@import "./global/footer.css";
+@import "./global/animacao.css";
+
+/* Sections */
+@import "./sections/sobre.css";
+@import "./sections/produtos.css";
+@import "./sections/preco.css";
+@import "./sections/qualidade.css";
+@import "./sections/newsletter.css";
+
+
+/* *{
+  border: 1px solid gray;
+} */
+

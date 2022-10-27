@@ -1,0 +1,79 @@
+main h1 {
+  font-size: 3em;
+  line-height: 1.1;
+  padding: 60px 10px;
+  max-width: 490px;
+}
+
+.sobre {
+  border-top: 2px solid var(--b1);
+  border-bottom: 2px solid var(--b1);
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.sobre-info {
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+.sobre-info h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+.sobre-info p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  margin-bottom: 1em;
+  color: var(--p2);
+}
+.sobre-info p:nth-last-child(1):hover{
+  color: var(--b3);
+  transition: .6s;
+}
+.sobre-img {
+  flex: 1 1 160px;
+  margin: 10px;
+}
+
+@media (max-width: 695px) {
+  .sobre-img:nth-child(3) {
+    border-top: 2px solid var(--b1);
+    border-bottom: 2px solid var(--b1);
+    align-self: center;
+    max-width: 300px;
+    padding: 40px 0px 40px 0;
+  }
+}
+@media (max-width: 515px) {
+  .sobre-img:nth-child(3) {
+    align-self: top;
+    border: none;
+    padding: 0;
+    max-width: auto;
+  }
+  main h1{
+    line-height: 1.1;
+  }
+}
+@media (max-width: 375px) {
+  .sobre-img {
+    align-self: center;
+    margin-left: 30px;
+  }
+  .sobre-img:nth-child(2) {
+    margin-top: 30px;
+  }
+  .sobre {
+    padding: 25px 0;
+  }
+  main h1{
+    padding: 35px 10px;
+    line-height: 1.2;
+  }
+}
+@media (max-width: 375px) {
+  main h1{
+    line-height: 1.2;
+    font-size: 2.8em;
+  }
+}
