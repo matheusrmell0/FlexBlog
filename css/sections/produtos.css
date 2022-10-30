@@ -6,6 +6,7 @@
   margin-bottom: 0.5em;
   margin: 0 10px;
   padding: 60px 0;
+  padding-bottom: 40px;
 }
 .produtos-container {
   display: flex;
@@ -36,6 +37,12 @@
 .blue {
   border-top: 8px solid #66d9eb;
 }
+.marg-10{
+  margin-bottom: -10px;
+}
+.marg30{
+  margin-bottom: 30px;
+}
 
 @media(max-width:418px){
   .produtos-item {
@@ -56,3 +63,4 @@
     padding: 35px 10px;
   }
 }
+

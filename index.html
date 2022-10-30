@@ -7,13 +7,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="preload" href="./css/style.css" as="style">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preload" href="./css/style.min.css" as="style">
+  <link rel="stylesheet" href="./css/style.min.css">
   <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <script>document.documentElement.classList.add('js');</script>
 
   <title>FlexBlog</title>
-  <meta name="description" content="Site de estudo Flex Box">
+  <meta name="description" content="Site de estudo e prática do recurso Flex Box">
 </head>
 
 <body id="index">
@@ -62,15 +62,15 @@
 	<section class="container produtos" id="produtos">
 		<h1>Produtos</h1>
 		<div class="produtos-container">
-			<div class="produtos-item purple">
+			<div class="produtos-item purple fadeInUp opacity-0 marg30" data-anime="1400" id="purple">
 				<h2>Purple</h2>
 				<img src="img/produtos1.jpg" alt="Produtos 1">
 			</div>
-			<div class="produtos-item pink">
+			<div class="produtos-item pink fadeInDown opacity-0 marg-10" data-anime="1200" id="pink">
 				<h2>Pink</h2>
 				<img src="img/produtos2.jpg" alt="Produtos 2">
 			</div>
-			<div class="produtos-item blue">
+			<div class="produtos-item blue fadeInDown opacity-0 marg30" data-anime="1400" id="blue">
 				<h2>Blue</h2>
 				<img src="img/produtos3.jpg" alt="Produtos 3">
 			</div>
@@ -78,7 +78,7 @@
 	</section>
 	
 	<section class="preco" id="preco">
-		<div class="preco-item">
+		<div class="preco-item opacity-0 marg20" id="cobre">
 			<h2>Cobre</h2>
 			<span><sup>R$</sup>19</span>
 			<ul>
@@ -90,7 +90,7 @@
 			<a href="#">Comprar</a>
 		</div>
 		
-		<div class="preco-item">
+		<div class="preco-item opacity-0 marg20" id="prata">
 			<h2>Prata</h2>
 			<span><sup>R$</sup>39</span>
 			<ul>
@@ -103,7 +103,7 @@
 			<a href="#">Comprar</a>
 		</div>
 		
-		<div class="preco-item">
+		<div class="preco-item opacity-0 marg20" id="ouro">
 			<h2>Ouro</h2>
 			<span><sup>R$</sup>79</span>
 			<ul>
@@ -118,32 +118,27 @@
 		</div>
 	</section>
 	
-	<section class="container qualidade" id="qualidade">
+	<section class="container qualidade opacity-0" id="qualidade">
 		<div class="qualidade-item">
 			<h2>Inteligente</h2>
 			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão </p>
 		</div>
-		
 		<div class="qualidade-item">
 			<h2>Compacto</h2>
 			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente</p>
 		</div>
-		
 		<div class="qualidade-item">
 			<h2>Econômico</h2>
 			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão </p>
 		</div>
-		
 		<div class="qualidade-item">
 			<h2>Transparente</h2>
 			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão </p>
 		</div>
-		
 		<div class="qualidade-item">
 			<h2>Opaco</h2>
 			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão das condições inegavelmente</p>
 		</div>
-		
 		<div class="qualidade-item">
 			<h2>Sustentável</h2>
 			<p>O que temos que ter sempre em mente é que a determinação clara de objetivos afeta positivamente a correta previsão </p>
